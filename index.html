@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalp Desai | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #111827;
+      padding: 18px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav h2 {
+      color: white;
+    }
+
+    nav a {
+      color: #d1d5db;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 10%;
+      background-color: #111827;
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      font-weight: normal;
+      color: #d1d5db;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      max-width: 750px;
+      font-size: 19px;
+      color: #e5e7eb;
+    }
+
+    section {
+      padding: 75px 10%;
+    }
+
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .about p {
+      max-width: 850px;
+      font-size: 18px;
+    }
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .skill {
+      background: white;
+      padding: 15px 22px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      font-weight: bold;
+    }
+
+    .projects {
+      background-color: #eef1f5;
+    }
+
+    .project-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .project-card {
+      background: white;
+      padding: 28px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .project-card h3 {
+      margin-bottom: 12px;
+    }
+
+    .project-card p {
+      color: #555;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 15px;
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact p {
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 700px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <h2>Kalp Desai</h2>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Kalp Desai</h1>
+    <h2>Finance Student | Data Analytics | AI & Automation</h2>
+
+    <p>
+      I am a Finance student at Rutgers University with interests in
+      financial analysis, data analytics, artificial intelligence,
+      automation, and entrepreneurship.
+    </p>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+
+    <p>
+      I am interested in combining finance, technology, and business
+      strategy to solve real-world problems. My academic and personal
+      projects have allowed me to explore financial analysis, automation,
+      artificial intelligence, and data-driven decision making.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill">Financial Analysis</div>
+      <div class="skill">Financial Modeling</div>
+      <div class="skill">Microsoft Excel</div>
+      <div class="skill">Data Analytics</div>
+      <div class="skill">HTML / CSS / JavaScript</div>
+      <div class="skill">AI Automation</div>
+      <div class="skill">n8n</div>
+      <div class="skill">Business Strategy</div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+        <h3>AI Research Automation</h3>
+
+        <p>
+          Developed an automated research workflow using n8n, search APIs,
+          AI-powered summarization, Google Docs, and email automation to
+          collect information and turn research into organized outputs.
+        </p>
+
+        <a href="https://github.com/professional-kalpdesai" target="_blank">
+          View GitHub
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Financial Analysis Project</h3>
+
+        <p>
+          Applied financial analysis and corporate finance concepts to
+          evaluate company performance, financial statements, valuation,
+          profitability, and investment decisions.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Business Automation Project</h3>
+
+        <p>
+          Explored AI and workflow automation solutions designed to improve
+          business operations, customer management, communication, and
+          repetitive administrative processes.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Let's Connect</h2>
+
+    <p>
+      I'm interested in opportunities involving finance, technology,
+      analytics, AI automation, and entrepreneurship.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Kalp Desai | Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
